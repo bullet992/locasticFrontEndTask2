@@ -1,3 +1,2 @@
 # locasticFrontEndTask
-Simple responsive website using webpack 3, flexbox, SASS etc.
-Use "npm start" command to run.
+Second task for Locastic Front End position. Client side form validation.
