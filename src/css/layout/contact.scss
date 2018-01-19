@@ -55,6 +55,8 @@
     height: 202px;
     border: none;
     border-radius: 4px;
+    resize: none;
+    padding: 1px 0;
   }
   textarea:focus {
     border-color: $blue;

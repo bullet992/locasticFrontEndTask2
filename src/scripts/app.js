@@ -3,6 +3,7 @@ import './../css/style.scss';
 import './navbar.js';
 import './responsiveslides.js';
 import './loadmore.js';
+import './formValid.js';
 
 // *********** SLIDESHOW *********** //
 import firstSlide from '../images/1.jpg';
