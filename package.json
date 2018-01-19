@@ -1,0 +1,53 @@
+{
+  "name": "locasticfrontendtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o ./dist/css ./src/css",
+    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "start": "webpack && npm run scss && webpack-dev-server --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bullet992/locasticFrontEndTask.git"
+  },
+  "author": "Marko Raše",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bullet992/locasticFrontEndTask/issues"
+  },
+  "homepage": "https://github.com/bullet992/locasticFrontEndTask#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.9",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "image-webpack-loader": "^3.4.2",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^7.0.0",
+    "postcss": "^6.0.16",
+    "postcss-browser-reporter": "^0.5.0",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-loader": "^2.0.10",
+    "postcss-reporter": "^5.0.0",
+    "postcss-url": "^7.3.0",
+    "rucksack-css": "^1.0.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "stylelint": "^8.4.0",
+    "uglify-js": "^3.3.7",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "dependencies": {}
+}

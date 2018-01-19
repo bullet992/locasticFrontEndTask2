@@ -1,0 +1,41 @@
+@import "../base/colors";
+@import "../base/typography";
+@import "../utils/mixins";
+
+%footer_text {
+  font-size: 16px;
+  line-height: 36px;
+  color: $white;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background: $dark_grey;
+
+  @include breakpoint(tablet) {
+    height: 70px;
+  }
+}
+
+.footer_copyright {
+  @extend %footer_text;
+  margin: 0;
+  padding-top: 16px;
+
+  @include breakpoint(tablet) {
+    float: left;
+    padding: 16px;
+  }
+}
+
+.footer_author {
+  @extend %footer_text;
+  margin: 0;
+  padding-bottom: 16px;
+
+  @include breakpoint(tablet) {
+    float: right;
+    padding: 16px;
+  }
+}

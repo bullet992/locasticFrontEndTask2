@@ -1,0 +1,14 @@
+@import "base/colors";
+@import "base/typography";
+@import "utils/mixins";
+
+html {
+  font-family: $roboto;
+  font-weight: $roboto_regular;
+}
+
+@import "layout/navbar";
+@import "layout/slideshow";
+@import "layout/articles";
+@import "layout/contact";
+@import "layout/footer";

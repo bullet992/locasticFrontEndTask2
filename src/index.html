@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title><%= htmlWebpackPlugin.options.title %></title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="#!">Locastic</a>
+      </div>
+      <nav>
+        <div class="nav-mobile">
+          <a id="nav-toggle" href="#!"><span></span></a>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#sliderSection">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Works</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 4</a>
+            </div>
+          </li>
+          <li><a href="#blogSection">About Us</a></li>
+          <li><a href="#contactSection">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <section id="sliderSection" class="slider_container">
+    <ul class="rslides">
+      <li>
+        <img id="firstSlide" alt="First Slide">
+        <p class="caption">Naslov 1</p>
+      </li>
+      <li>
+        <img id="secondSlide" alt="Secont Slide">
+        <p class="caption">Naslov 2</p>
+      </li>
+      <li>
+        <img id="thirdSlide" alt="Third Slide">
+        <p class="caption">Naslov 3</p>
+      </li>
+    </ul>
+  </section>
+  
+
+  <section id="blogSection" class="blog_section">
+    <div class="blog_container">
+      <article class="blog_article">
+        <img id="article_img1" alt=""/>
+        <h4 class="article_title">Comment On The Importance Of Human Life</h4>
+        <p class="article_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a class="article_readmore" href="#" target="_blank">View full article</a>
+      </article>
+
+      <article class="blog_article">
+        <img id="article_img2" alt=""/>
+        <h4 class="article_title">Comment On The Importance Of Human Life</h4>
+        <p class="article_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a class="article_readmore" href="#" target="_blank">View full article</a>
+      </article>
+
+      <article class="blog_article">
+        <img id="article_img3" alt=""/>
+        <h4 class="article_title">Comment On The Importance Of Human Life</h4>
+        <p class="article_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a class="article_readmore" href="#" target="_blank">View full article</a>
+      </article>
+
+      <article class="blog_article">
+        <img id="article_img4" alt=""/>
+        <h4 class="article_title">Comment On The Importance Of Human Life</h4>
+        <p class="article_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a class="article_readmore" href="#" target="_blank">View full article</a>
+      </article>
+
+      <article class="blog_article">
+        <img id="article_img5" alt=""/>
+        <h4 class="article_title">Comment On The Importance Of Human Life</h4>
+        <p class="article_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a class="article_readmore" href="#" target="_blank">View full article</a>
+      </article>
+  
+      <article class="blog_article">
+        <img id="article_img6" alt=""/>
+        <h4 class="article_title">Comment On The Importance Of Human Life</h4>
+        <p class="article_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a class="article_readmore" href="#" target="_blank">View full article</a>
+      </article>
+
+      <article class="blog_article">
+        <img id="article_img7" alt=""/>
+        <h4 class="article_title">Comment On The Importance Of Human Life</h4>
+        <p class="article_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a class="article_readmore" href="#" target="_blank">View full article</a>
+      </article>
+    </div>
+    <button class="article_load_btn" id="loadMore">Load More</button>
+  </section>
+
+
+  <section id="contactSection" class="contact_section">
+    <h2 class="contact_title">Contact Form</h2>
+    <div class="contact_container">
+      <form action="#" class="contact_form">
+        <label for="contact_name">Contact name</label>
+        <input type="text" id="contact_name" name="name">
+    
+        <label for="contact_email">Email address</label>
+        <input type="email" id="contact_email" name="email">
+    
+        <label for="contact_message">Message</label>
+        <textarea id="contact_message" name="message"></textarea>
+    
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  </section>
+
+
+  <footer>
+    <p class="footer_copyright">2018 Locastic Test Page</p>
+    <p class="footer_author">By Marko Raše</p>
+  </footer>
+
+</body>
+</html>
